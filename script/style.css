@@ -1,0 +1,53 @@
+main {
+  text-align: center;
+}
+.flex-box-row-1,
+.flex-box-row-2 {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 2%; */
+  justify-content: space-around;
+  border: 1px solid black;
+  background: url("../images/bg-3.jpg") center;
+  color: white;
+}
+.flex-box-row-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* padding: 2%; */
+  /* border: 1px solid black; */
+}
+.flex-box-row-1 div {
+  border: 1px solid white;
+  padding: 1%;
+  flex: 1;
+  height: 55vh;
+}
+.flex-box-row-2 button {
+  border: 1px solid black;
+  justify-content: space-around;
+}
+.flex-box-row-2 div {
+  border: 1px solid white;
+  padding: 2%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  /* color: yellow; */
+}
+
+.flex-box-row-1 img {
+  height: 13vh;
+  padding: 2%;
+}
+
+footer>a{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer{
+    text-align: center;
+}
